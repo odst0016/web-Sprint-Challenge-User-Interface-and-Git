@@ -29,9 +29,10 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-    line-height: 1;
+    line-height: 1.5;
     margin-left: 25%;
     margin-right: 25%;
+    
 }
 ol, ul {
 	list-style: none;
@@ -59,8 +60,9 @@ hr {
 }
 .hr2 {
     border: 1px dashed black;
-    margin: 2% 0% 2% 0%;
-    width: 80%;
+    margin: 4% 0% 2% 0%;
+    width: 100%;
+    
 }
 
 #nav-container{
@@ -80,6 +82,19 @@ hr {
 #about-container {
     display: flex;
     flex-flow: column wrap;
+}
+#about-container p{
+    text-align: left;
+    padding-left: 3%;
+    font-size: 18px;
+    
+}
+#about-container h1{
+    padding-left: 3%;
+    width: 90%;
+    text-align: left;
+    margin: 2% 0% 2% 0%;
+    font-size: 20px;
 }
 
 #about-container h1 {
@@ -106,19 +121,22 @@ p {
 }
 
 .card-img {
-    object-fit: cover;
-    width: 80%;
+    padding: 0% 5% 0% 5%;
+    width: 100%;
+    padding: 5%;
 }
 
 .card-p {
+    padding: 0% 5% 0% 5%;
     font-size: 18px;
     width: 90%;
     text-align: left;
 }
 
 h2 {
+    padding: 0% 5% 0% 5%;
     width: 90%;
-    text-align: left;;
+    text-align: left;
     margin: 2% 0% 2% 0%;
     font-size: 20px;
 }
@@ -126,7 +144,7 @@ h2 {
 #nav2-container {
     display: flex;
     justify-content: flex-start;
-    align-items: ;
+    
 }
 
 footer nav {
@@ -147,13 +165,36 @@ footer nav a{
     border-radius: 10px;
     text-decoration: none;
     color: black;
-    padding: 2px;
+    padding-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
     margin-top: 2%;
-    max-width: 25%;
+    margin-bottom: 2%;
+    max-width: 35%;
 }
 .card {
     
     text-align: center;
     display: flex;
     flex-direction: column;
+}
+.button-div {
+    text-align:left;
+    margin-top: 5%;
+    padding: 0% 5% 0% 5%;
+}
+
+#lets-work-together p{
+    text-align: left;
+    padding-left: 3%;
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+#lets-work-together h3{
+    padding-left: 3%;
+    width: 90%;
+    text-align: left;
+    margin: 2% 0% 2% 0%;
+    font-size: 20px;
 }
