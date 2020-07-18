@@ -15,7 +15,7 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+time, mark, audio, video, hr {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -52,12 +52,22 @@ table {
 * {
     box-sizing: border-box;
 }
+hr {
+
+    border: 1px dashed black;
+    margin: 2% 0% 2% 0%;
+}
+.hr2 {
+    border: 1px dashed black;
+    margin: 2% 0% 2% 0%;
+    width: 80%;
+}
 
 #nav-container{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: baseline;
     margin-top: 3%;
     margin-bottom: 3%;
 }
@@ -65,3 +75,68 @@ table {
 #header-container a {
     text-decoration: none;
     color: black;
+    margin: 0% 6% 0% 6%;
+}
+#about-container {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#about-container h1 {
+    font-size: 20px;
+    margin: 2% 0% 2% 0%;
+}
+
+#row1-container {
+    display: flex;
+}
+#row2-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    text-align: center;
+}
+
+#jumbo-about {
+    margin: 0 auto;
+    object-fit: cover;
+    width: 100%;
+}
+
+.card-img {
+    object-fit: cover;
+    width: 80%;
+}
+
+.card-p {
+    font-size: 18px;
+    width: 90%;
+    text-align: left;
+}
+
+h2 {
+    width: 90%;
+    text-align: left;;
+    margin: 2% 0% 2% 0%;
+    font-size: 20px;
+}
+
+#nav2-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: ;
+}
+
+footer nav {
+    background-color: black;
+    padding: 20px;
+}
+
+footer nav a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    margin: 0% 2% 0% 2%;
+}
